@@ -1,15 +1,91 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-  background:#0f172a;
-  color:white;
-  font-family:Arial,sans-serif;
-  text-align:center;
-  padding:100px 20px;
+font-family:Arial,sans-serif;
+background:#0f172a;
+color:white;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
 }
 
 .hero h1{
-  font-size:60px;
+font-size:70px;
+margin-bottom:15px;
+}
+
+.hero h2{
+font-size:30px;
+margin-bottom:20px;
 }
 
 .hero p{
-  font-size:20px;
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+padding:15px 35px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:10px;
+}
+
+.about,
+.skills,
+#projects{
+padding:100px 10%;
+}
+
+.about h2,
+.skills h2,
+#projects h2{
+margin-bottom:30px;
+font-size:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:30px;
+}
+
+.project{
+background:#1e293b;
+border-radius:15px;
+overflow:hidden;
+}
+
+.project img{
+width:100%;
+display:block;
+}
+
+.project h3{
+padding:20px;
 }
