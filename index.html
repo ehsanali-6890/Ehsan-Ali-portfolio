@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ehsan Ali Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ehsan Ali | Shopify Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
+<section class="hero">
     <h1>Ehsan Ali</h1>
-    <p>Senior Shopify Full Stack Developer</p>
-    <p>6+ Years Experience | 100+ Shopify Stores Delivered</p>
+    <h2>Senior Shopify Full Stack Developer</h2>
+
+    <p>
+        6+ Years Experience • 100+ Shopify Stores Delivered
+    </p>
+
+    <a href="#projects" class="btn">View Projects</a>
+</section>
+
+<section class="about" data-aos="fade-up">
+    <h2>About Me</h2>
+
+    <p>
+        Shopify Full Stack Developer with 6+ years of experience
+        building high-converting eCommerce stores, custom features,
+        speed optimization solutions, and Shopify Plus projects.
+    </p>
+</section>
+
+<section class="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+
+    <div class="grid">
+        <div class="card">Shopify</div>
+        <div class="card">Liquid</div>
+        <div class="card">JavaScript</div>
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">CRO</div>
+    </div>
+</section>
+
+<section id="projects" data-aos="fade-up">
+    <h2>Featured Projects</h2>
+
+    <div class="gallery">
+
+        <div class="project">
+            <img src="https://via.placeholder.com/600x400" alt="">
+            <h3>Project 1</h3>
+        </div>
+
+        <div class="project">
+            <img src="https://via.placeholder.com/600x400" alt="">
+            <h3>Project 2</h3>
+        </div>
+
+        <div class="project">
+            <img src="https://via.placeholder.com/600x400" alt="">
+            <h3>Project 3</h3>
+        </div>
+
+    </div>
+</section>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1000
+});
+</script>
+
 </body>
 </html>
