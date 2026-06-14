@@ -495,3 +495,75 @@ font-size:52px;
 }
 
 }
+/* ===== PROJECT DESCRIPTION ===== */
+
+.project-card p{
+padding:0 25px 25px;
+color:var(--muted);
+font-size:15px;
+line-height:1.8;
+}
+
+/* ===== CONTACT INFO ===== */
+
+.contact-info{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:35px;
+flex-wrap:wrap;
+margin:35px 0;
+}
+
+.contact-info a{
+color:#C6A664;
+text-decoration:none;
+font-size:18px;
+font-weight:500;
+transition:.3s;
+}
+
+.contact-info a:hover{
+color:#fff;
+text-shadow:0 0 20px rgba(198,166,100,.6);
+}
+
+/* ===== FOOTER ===== */
+
+.footer{
+padding:30px;
+text-align:center;
+border-top:1px solid rgba(212,175,55,.1);
+color:#888;
+margin-top:40px;
+}
+
+/* ===== BETTER SPACING ===== */
+
+.hero,
+.stats,
+.services,
+.contact{
+padding-left:12%;
+padding-right:12%;
+}
+
+/* ===== MOBILE FIX ===== */
+
+@media(max-width:768px){
+
+.horizontal-scroll{
+grid-template-columns:1fr;
+padding:20px;
+}
+
+.project-card{
+width:100%;
+}
+
+.contact-info{
+flex-direction:column;
+gap:15px;
+}
+
+}
